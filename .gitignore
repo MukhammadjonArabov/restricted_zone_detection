@@ -36,7 +36,7 @@ data/*.jpg
 data/*.png
 
 # But keep your restricted_zones.json (config file)
-!data/restricted_zones.json
+!restricted_zones.json
 
 # === Environment variables ===
 .env
