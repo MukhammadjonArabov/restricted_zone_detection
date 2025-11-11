@@ -43,11 +43,11 @@ def draw_and_save_zone(video_path):
 
         if key == ord("r"):
             points.clear()
-        elif key == ord("s"):
+        elif key == ord("c"):
             if len(points) > 2:
                 save_zone_json(points)
                 break
-        elif key == ord("d"):
+        elif key == 27:
             break
     cv2.destroyAllWindows()
 

@@ -19,7 +19,7 @@ models/
 
 videos/test.mp4
 *mp4
-!restricted_zones.json
+!restricted_sone
 .env
 build/
 dist/

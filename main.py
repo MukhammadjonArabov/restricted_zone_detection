@@ -1,16 +1,17 @@
-# This is a sample Python script.
+import argparse
+from core.zone_manager import draw_and_save_zone
+from core.detector import crossing_message
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+def main():
+    parser = argparse.ArgumentParser(description="Restricted Zone Detection System")
+    parser.add_argument("--video", "-v", required=True, help="Video fayl manzili")
+    parser.add_argument("--draw", action="store_true", help="Zonani chizish rejimi")
+    args = parser.parse_args()
 
+    if args.draw:
+        draw_and_save_zone(args.video)
+    else:
+        crossing_message(args.video)
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+if __name__ == "__main__":
+    main()
