@@ -17,6 +17,7 @@
 O'rnatish
 ```bash
 git clone https://github.com/MukhammadjonArabov/restricted_zone_detection.git
+cd .\restricted_zone_detection\
 py -m venv venv
 \.venv\Scripts\activate
 pip install -r requirements.txt
