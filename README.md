@@ -34,13 +34,13 @@ python main.py -v videos/test.mp4 --draw
 python main.py -v videos/test.mp4
 ```
 ## Loyhani bajarganda quydagi manbalardan foydalandim
-https://github.com/ultralytics/ultralytics?tab=readme-ov-file
-https://docs.opencv.org/4.x/
-https://www.geeksforgeeks.org/python/opencv-python-tutorial/
-https://opencv-tutorial.readthedocs.io/en/latest/yolo/yolo.html
-https://www.geeksforgeeks.org/computer-vision/opencv-projects-ideas-for-beginners/
+- https://github.com/ultralytics/ultralytics?tab=readme-ov-file
+- https://docs.opencv.org/4.x/
+- https://www.geeksforgeeks.org/python/opencv-python-tutorial/
+- https://opencv-tutorial.readthedocs.io/en/latest/yolo/yolo.html
+- https://www.geeksforgeeks.org/computer-vision/opencv-projects-ideas-for-beginners/
 
 ## OpenCV va YOLO ni o'ganib chizib, bu loyhani bajarishdan oldin quydagi kichik loyhalarni qildim
-https://github.com/MukhammadjonArabov/OpenCV-projects
-https://github.com/MukhammadjonArabov/OpenCV-Django
+- https://github.com/MukhammadjonArabov/OpenCV-projects
+- https://github.com/MukhammadjonArabov/OpenCV-Django
 
