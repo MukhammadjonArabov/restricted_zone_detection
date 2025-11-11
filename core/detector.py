@@ -5,7 +5,7 @@ from core.zone_manager import load_zone_json
 from core.utils import draw_zone, is_point_in_zone
 from config.settings import MODEL_PATH, ALARM_DURATION
 
-def crossing_message(video_path):
+def detect_intrusion(video_path):
     """ Odam zonaga kirsa xabar chiqarish """
     zone = load_zone_json()
     if not zone:
