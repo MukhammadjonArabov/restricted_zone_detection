@@ -40,7 +40,10 @@ python main.py -v videos/test.mp4
 - https://opencv-tutorial.readthedocs.io/en/latest/yolo/yolo.html
 - https://www.geeksforgeeks.org/computer-vision/opencv-projects-ideas-for-beginners/
 
-## OpenCV va YOLO ni o'ganib chizib, bu loyhani bajarishdan oldin quydagi kichik loyhalarni qildim
+## OpenCV va YOLO ni o'rganib chiqib, bu loyhani bajarishdan oldin quydagi kichik loyhalarni qildim
 - https://github.com/MukhammadjonArabov/OpenCV-projects
 - https://github.com/MukhammadjonArabov/OpenCV-Django
 
+## Qiyilchilik
+- Loyhani qilishda chizilgan zonaga odam kesib o'tganini anilab olishda qiyinchilik bo'ldi.
+- Bu muammoni odamni aniqlab olib odamni markazidan nuqta oldim va shu nuqtani chizilgan chegaraga kirish yoki kirmasligini tekshirdim
