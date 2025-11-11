@@ -1,55 +1,30 @@
-# === Python cache ===
 __pycache__/
 *.py[cod]
 *$py.class
-
-# === Virtual environment ===
 .venv/
 venv/
 env/
-
-# === IDE / Editor files ===
 .vscode/
 .idea/
 *.swp
-
-# === System files ===
 .DS_Store
 Thumbs.db
-
-# === Logs ===
 *.log
 logs/
 debug.log
-
-# === Model and large files ===
 models/
 *.pt
 *.onnx
 *.h5
 
-# === Data files ===
-data/*.mp4
-data/*.avi
-data/*.mov
-data/*.jpg
-data/*.png
-
-# But keep your restricted_zones.json (config file)
+videos/test.mp4
+*mp4
 !restricted_zones.json
-
-# === Environment variables ===
 .env
-
-# === Compiled ===
 build/
 dist/
 *.egg-info/
-
-# === Temporary files ===
 tmp/
 *.bak
 *.tmp
-
-# === Jupyter notebooks checkpoints ===
 .ipynb_checkpoints/

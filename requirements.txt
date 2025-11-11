@@ -1,22 +1,10 @@
-# YOLOv8 uchun asosiy kutubxona
 ultralytics==8.3.16
-
-# Video va rasm bilan ishlash uchun
 opencv-python==4.10.0.84
 opencv-python-headless==4.10.0.84
-
-# Asosiy ilmiy hisoblash kutubxonalari
 numpy==1.26.4
 torch==2.3.0
 torchvision==0.18.0
-
-# JSON va fayl tizimi bilan ishlash uchun
 pillow==10.4.0
-
-# Log yozish va CLI interfeys uchun
 tqdm==4.66.5
 click==8.1.7
 
-# (Ixtiyoriy) Agar siz video tahlilni tezlashtirmoqchi bo‘lsangiz
-# deep-sort uchun kerak bo‘ladi, ammo hozirgi versiyada majburiy emas
-# deep-sort-realtime==1.3.2
